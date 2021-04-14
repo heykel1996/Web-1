@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Muhammad Heykel</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     </head>
     <body>
 
@@ -33,7 +33,7 @@
 
                 <!-- menu mobile -->
                 <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
-			</div>
+            </div>
         </header>
 
 
@@ -44,10 +44,11 @@
                 <div class="banner-left">
                 <img src="img/Heykel2.jpg">
                 <h2>Hai..<br>
-                    Saya adalah seorang <span class="efek-ngetik"></span></h2>
+                    Nama saya adalah <span class="efek-ngetik"></span></h2>
                 <p>Selamat datang di Web portfolio saya</p>
                 </div> 
         </section>
+        <!-- akhir Banner -->
 
         <!-- bagian about -->
         <section id="about">
@@ -56,7 +57,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
         </section>
-
+        <!-- Akhir About -->
 
         <!-- bagian My Profile -->
         <section id="My Profile">
@@ -75,21 +76,32 @@
         <!-- Bagian Contact -->
         <section id="section">
             <div class="container">
-                <h3>Contact</h3>
-                <div class="col-3">
-                    <h4>Alamat</h4>
-                    <p>Jl. Metland Cileungsi, Taman Rahayu, Kec. Setu, Bekasi, Jawa Barat</p>
-                </div>
-
-                <div class="col-3">
-                    <h4>Email</h4>
-                    <p>muhammadheykel111@gmail.com</p>
-                </div>
-
-                <div class="col-3">
-                    <h4>Telp/HP</h4>
-                    <p>+62 812 8822 1307</p>
-                </div>
+                <div class="contact-form-box">
+                    <div>Silahkan isi form di bawah ini untuk menghubungi saya. </div>
+                    <br/>
+                    <form name="contact-form" id="contactForm">
+                      <div class="floating-label-form-group">                  
+                        <label>Name</label>                  
+                        <input type="text" class="form-control" placeholder="Name" id="ContactForm1_contact-form-name" name="name" value="" />
+                    </div> 
+                      
+                    <div class="floating-label-form-group">
+                        <label>Email Address</label>
+                        <input type="text" class="form-control" placeholder="Email Address" id="ContactForm1_contact-form-email" name="email" value="" /> 
+                    </div>
+                      
+                    <div class="floating-label-form-group">
+                        <label>Message</label>
+                        <textarea rows="5" class="form-control" name="email-message" placeholder="Message" id="ContactForm1_contact-form-email-message"></textarea>
+                    </div>
+    
+                      <input id="ContactForm1_contact-form-submit" type="button" class="btn btn-default" value="Kirim" />
+                      <div class="clear"></div>
+                      <div style="max-width: 100%; text-align: left; width: 100%;">
+                        <div id="ContactForm1_contact-form-error-message"> </div>
+                        <div id="ContactForm1_contact-form-success-message"> </div>
+                      </div>
+                    </form>
             </div>
         </section>
 
@@ -99,7 +111,7 @@
                 <small>Copyright &copy; 2021 - Muhammad Heykel</small>
             </div>
         </footer>
-
+        <!-- Akhir footer -->
         <script src="js/script.js"></script>
     </body>
 </html>
